@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Genérico.css">
+    <link rel="stylesheet" href="Main.css">
+    <title>XtartCine</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="#" class="navbar-brand">
+                    <img src="" alt="">
+                </a>
+                
+                <ul class="navbar-nav">
+                    <li><a href="#" class="navbar-link">Inicio</a></li>
+                    <li><a href="#" class="navbar-link">Peliculas</a></li>
+                    <li><a href="#" class="navbar-link">Promociones</a></li>
+                </ul>
+                <div class="navbar-actions">
+                    <form action="#" class="navbar-form">
+                        <input type="text" name="search" placeholder="¿Qué buscas?" class="navbar-search">
+                        <button type="submit" class="btn-search">
+                            <i class='bx bx-search-alt-2'></i>
+                        </button>
+                    </form>
+                    <button class="btn-login">
+                        <i class='bx bx-log-in'></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="carousel">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <img src="images/blancanieves.jpg" alt="Blancanieves">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/flow.jpg" alt="Flow">
+            </div>
+            <div class="carousel-slide">
+                <img src="images/lilo-y-stitch.jpeg" alt="Lilo y Stitch">
+            </div>
+        </div>
+
+        <div class="swiper-btn">
+            <button class="carousel-btn-prev"><i class='bx bx-chevron-left'></i></button>
+            <button class="carousel-btn-next"><i class='bx bx-chevron-right'></i></button>     
+        </div>
+
+        <div class="carousel-indicators"></div> 
+    </div>
+
+    <script src="Cine.js"></script>
+</body>
+</html>
